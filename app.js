@@ -16,22 +16,22 @@ const fields = [
 ];
 
 const sampleData = {
-  projectName: "Agent 项目证据整理生成器",
-  role: "独立开发者 / AI 工作流实践者",
-  valueProp: "帮助开发者把 Agent 项目成果快速整理成可提交的申请材料与公开证明页面",
+  projectName: "Agent 项目申报整理助手",
+  role: "独立开发者 / Agent 工作流实践者",
+  valueProp: "帮助开发者把 Agent 项目成果整理成可提交、可公开展示、可核验的申请材料",
   agentTool: "Codex",
   modelSeries: "GPT 系列",
-  usageScene: "静态网站搭建、申请文案整理、README 生成、GitHub 发布准备",
+  usageScene: "激励计划申报、静态网站搭建、README 打包、GitHub 展示准备",
   problem:
-    "很多开发者已经在用 Agent 工具做项目，但在申请资源激励时，往往缺少一份结构化、清晰、可验证的成果说明，导致项目价值难以快速被评估。",
+    "很多开发者已经在用 Agent 工具持续做项目，但在申请资源激励或对外展示时，往往缺少一份结构化、清晰、可验证的成果说明，导致项目价值难以被快速理解和评估。",
   features:
-    "我用 Agent 工作流搭建了一个轻量静态工具页，支持录入项目关键信息、生成可直接提交的申请摘要、导出 README 片段、整理 proof checklist，并对 GitHub 与 Demo 链接做基础校验。",
+    "我用 Agent 工作流搭建了一个轻量静态工具页，支持录入项目关键信息、生成更适合提交的申请摘要、导出 README 片段、整理 proof checklist，并对 GitHub 与 Demo 链接做基础校验。",
   result:
-    "最终产出了一个可公开展示的 GitHub Pages 项目，以及一套可直接复用的申请材料模板，降低了整理成果和提交证明的成本，也让项目价值更容易被审核方理解。",
-  githubUrl: "https://github.com/your-name/agent-evidence-studio",
-  demoUrl: "https://your-name.github.io/agent-evidence-studio/",
+    "最终产出了一个可公开展示的 GitHub Pages 项目，以及一套可直接复用的申报材料模板，降低了整理成果和提交证明的成本，也让项目价值更容易被审核方理解。",
+  githubUrl: "https://github.com/AIPlayer0831/agent-evidence-studio-mimo",
+  demoUrl: "https://aiplayer0831.github.io/agent-evidence-studio-mimo/",
   proofNotes:
-    "1) 首页整体截图；2) 申请摘要导出截图；3) README 片段截图；4) 本地运行终端截图；5) GitHub Pages 在线页截图。",
+    "1) 首页整体截图；2) 申请摘要导出截图；3) README 片段截图；4) GitHub Pages 在线页截图；5) GitHub 仓库与提交记录截图。",
 };
 
 const form = document.querySelector("#evidenceForm");
@@ -160,7 +160,7 @@ function buildReadmeSection(state) {
   return [
     "## 项目简介",
     "",
-    `**${state.projectName}** 是一个面向 Xiaomi MiMo 激励计划准备场景的轻量工具页，用来整理 Agent 项目成果、证明材料与申请摘要。`,
+    `**${state.projectName}** 是一个面向 Xiaomi MiMo 激励计划申报场景的轻量工具页，用来整理 Agent 项目成果、证明材料与申请摘要。`,
     "",
     "### Why this project",
     "",
@@ -187,7 +187,7 @@ function buildReadmeSection(state) {
     "",
     "### 提交模板",
     "",
-    "> 我使用 Agent 工具完成了一个真实可运行的项目，并通过公开仓库、在线 Demo、截图和 README 文档来证明项目成果与交付能力。",
+    "> 我使用 Agent 工具完成了一个真实可运行的项目，并通过公开仓库、在线 Demo、截图和 README 文档来证明项目成果与交付能力，便于审核方快速理解我的实际产出。",
   ].join("\n");
 }
 
