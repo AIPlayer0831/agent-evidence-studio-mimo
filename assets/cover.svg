@@ -1,0 +1,25 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#F3E9D6"/>
+  <circle cx="1262" cy="180" r="220" fill="#E97C47" fill-opacity="0.18"/>
+  <circle cx="278" cy="688" r="260" fill="#0F766E" fill-opacity="0.16"/>
+  <rect x="72" y="72" width="1456" height="756" rx="34" fill="#FFFBF2" stroke="#1E1D1A" stroke-opacity="0.08"/>
+  <rect x="118" y="132" width="744" height="576" rx="28" fill="#F9F1E3"/>
+  <rect x="118" y="132" width="744" height="126" rx="28" fill="#F3E6D1"/>
+  <rect x="922" y="132" width="560" height="228" rx="28" fill="#171717"/>
+  <rect x="922" y="390" width="560" height="146" rx="28" fill="#FFF6E8"/>
+  <rect x="922" y="566" width="560" height="142" rx="28" fill="#FFF6E8"/>
+  <text x="142" y="198" fill="#A63F1D" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="24" letter-spacing="3">XIAOMI MIMO SUBMISSION HELPER</text>
+  <text x="142" y="304" fill="#1E1D1A" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="68" font-weight="700">Agent 项目证据</text>
+  <text x="142" y="384" fill="#1E1D1A" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="68" font-weight="700">整理生成器</text>
+  <text x="142" y="462" fill="#635B4C" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="28">把项目成果、Agent 工作流、README 片段和 proof checklist 整理到一个页面里。</text>
+  <text x="142" y="538" fill="#635B4C" font-family="IBM Plex Mono, Consolas, monospace" font-size="24">Summary / README / Proof / GitHub Pages</text>
+  <rect x="142" y="600" width="224" height="62" rx="31" fill="#DB5B2F"/>
+  <text x="186" y="641" fill="#FFF6EF" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="26" font-weight="700">Ready to Submit</text>
+  <text x="962" y="200" fill="#F5F0DF" font-family="IBM Plex Mono, Consolas, monospace" font-size="22">APPLICATION SUMMARY</text>
+  <text x="962" y="256" fill="#F5F0DF" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="30">问题 → 功能 → 结果</text>
+  <text x="962" y="300" fill="#F5F0DF" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="24">自动生成可直接提交的成果描述</text>
+  <text x="962" y="444" fill="#0F766E" font-family="IBM Plex Mono, Consolas, monospace" font-size="22">README SNIPPET</text>
+  <text x="962" y="488" fill="#1E1D1A" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="26">项目简介 / AI 工作流 / 公开链接</text>
+  <text x="962" y="620" fill="#0F766E" font-family="IBM Plex Mono, Consolas, monospace" font-size="22">PROOF CHECKLIST</text>
+  <text x="962" y="664" fill="#1E1D1A" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="26">GitHub / Demo / 截图 / 终端日志</text>
+</svg>
