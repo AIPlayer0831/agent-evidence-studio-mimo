@@ -85,3 +85,18 @@ python -m http.server 4173
 - 在仓库 About 区填写 Demo 链接
 - 补充 `assets/app-screenshot.png`
 - 准备首页、导出区、终端运行、在线页四类截图作为 proof
+
+## GitHub 发布建议
+
+推荐仓库名：
+
+`agent-evidence-studio-mimo`
+
+推送后本仓库自带 `.github/workflows/pages.yml`，会在 `main` 分支更新后自动部署 GitHub Pages。
+
+如需用 GitHub CLI 创建公开仓库，可参考：
+
+```powershell
+gh auth login
+gh repo create agent-evidence-studio-mimo --public --source . --remote origin --push
+```
