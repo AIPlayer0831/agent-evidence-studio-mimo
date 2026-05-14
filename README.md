@@ -1,8 +1,17 @@
-# Agent 项目证据整理生成器
+# Agent 项目申报整理助手
+
+A lightweight static web app for turning an Agent project into a cleaner submission package for Xiaomi MiMo incentive applications.
 
 一个面向 **Xiaomi MiMo 激励计划** 的轻量静态工具页，用来整理 Agent 项目成果、证明材料和申请摘要，帮助开发者更快准备可审阅、可验证、可公开展示的提交内容。
 
-An ultra-light static web app for turning an Agent project into a clean submission package: summary text, README snippets, GitHub links, demo links, and proof checklists.
+## 项目定位
+
+这不是一个聊天机器人，也不是在线推理产品，而是一个 **Agent 项目申报整理助手**：
+
+- 把项目成果说明整理成更利于审核的结构
+- 把 GitHub / Demo / 截图这些 proof 集中到一个页面里
+- 自动生成可复用的申请摘要和 README 片段
+- 让你的公开仓库、在线演示和提交表单内容保持一致
 
 ## 项目价值
 
@@ -13,7 +22,7 @@ An ultra-light static web app for turning an Agent project into a clean submissi
 - 项目描述是否具体
 - 是否提供可信的证明材料
 
-很多开发者已经有真实成果，但往往卡在“怎么把成果整理成可提交材料”。这个项目就是为这个场景设计的。
+很多开发者已经有真实成果，但往往卡在“怎么把成果整理成一份可信、清晰、易审阅的提交材料”。这个项目就是为这个场景设计的。
 
 ## 功能
 
@@ -25,6 +34,7 @@ An ultra-light static web app for turning an Agent project into a clean submissi
 - 自动生成 README 文档片段
 - 自动生成 proof checklist
 - 使用 `localStorage` 自动保存草稿
+- 支持 `?sample=1` 一键加载示例数据，方便演示与截图
 
 ## AI / Agent Workflow
 
@@ -54,13 +64,12 @@ python -m http.server 4173
 
 `http://localhost:4173/?sample=1`
 
-## 在线体验
+## 已发布信息
 
-- GitHub Pages：待发布
-
-## 仓库地址
-
-- GitHub：待发布
+- GitHub 仓库：[AIPlayer0831/agent-evidence-studio-mimo](https://github.com/AIPlayer0831/agent-evidence-studio-mimo)
+- GitHub Pages：[https://aiplayer0831.github.io/agent-evidence-studio-mimo/](https://aiplayer0831.github.io/agent-evidence-studio-mimo/)
+- 默认分支：`main`
+- 部署方式：GitHub Actions + GitHub Pages
 
 ## 为什么这是一个 AI / Agent 驱动工作流工具
 
@@ -84,25 +93,11 @@ python -m http.server 4173
 - 开启 GitHub Pages
 - 在仓库 About 区填写 Demo 链接
 - 补充 `assets/app-screenshot.png`
-- 准备首页、导出区、终端运行、在线页四类截图作为 proof
+- 准备首页、导出区、仓库页、在线页四类截图作为 proof
 
-## GitHub 发布建议
+## 适合上传时强调的亮点
 
-推荐仓库名：
-
-`agent-evidence-studio-mimo`
-
-推送后本仓库自带 `.github/workflows/pages.yml`，会在 `main` 分支更新后自动部署 GitHub Pages。
-
-如需用 GitHub CLI 创建公开仓库，可参考：
-
-```powershell
-gh auth login
-gh repo create agent-evidence-studio-mimo --public --source . --remote origin --push
-```
-
-或者直接运行仓库内脚本：
-
-```powershell
-.\publish-github.ps1
-```
+- 项目已经公开，可直接提交仓库链接和在线 Demo
+- 页面内容、README、仓库主页和示例数据已经统一
+- 适合作为 “我如何用 Agent 交付真实项目” 的证明材料
+- 可直接截图首页、导出区和 GitHub Pages 页面作为 proof
