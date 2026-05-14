@@ -100,3 +100,9 @@ python -m http.server 4173
 gh auth login
 gh repo create agent-evidence-studio-mimo --public --source . --remote origin --push
 ```
+
+或者直接运行仓库内脚本：
+
+```powershell
+.\publish-github.ps1
+```
